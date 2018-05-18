@@ -27,7 +27,6 @@ public class ConsumerDemo {
     Consumer<String> consumer = new Consumer<String>() {
         @Override
         public void accept(String t) {
-
         /* Print list element on consile */
         System.out.println("_#__#_#_# = "+t);
         }
